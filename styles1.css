@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    width: 595px;
+    height: 500px;
+    display: inline-block;
+    margin: 163px 0 0 121px;
+}
+
+section {
+    display: inline-block;
+    margin: 0 0 50px 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 47px 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link-section {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    margin-right: 32px;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer; 
+}
+
+header {
+    margin: 47px 0 0 42px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .wrapper {
+        height: 100vh;
+        width: 100vw;
+    }
+
+
+    .link-header {
+        display: none;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+        background: #6FBF44;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        position: absolute;
+        right: 0;
+    }
+
+    h1 {
+    font-size: 30px;
+    line-height: 30px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    }
+
+    section {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .link-section {
+        margin-bottom: 100px;
+    }
+
+    img {
+        display: block;
+        margin: 70px auto 0 auto;
+        position: absolute;
+        bottom: 0;
+        height: 55vh;
+        width: calc(100vw - 5px);
+    }
+}
