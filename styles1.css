@@ -128,10 +128,10 @@ header {
 
     img {
         display: block;
-        margin: 70px auto 0 auto;
+        margin: 100px auto 0 100px;
         position: absolute;
         bottom: 0;
         height: 55vh;
-        width: calc(100vw - 5px);
+        width: 100vw;
     }
 }
